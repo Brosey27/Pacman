@@ -1,5 +1,6 @@
 body {
     background: #000115;
+    height:100%;
 }
 
 h1 {
@@ -14,4 +15,15 @@ footer {
     justify-content:center;
     align-items:center;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.pac-man {
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 8em;
+    border-radius: 100em 100em 0 0;
+    background: #f00;
+    transform-origin: bottom;
+    animation: eating-top .5s infinite;
+
 }
