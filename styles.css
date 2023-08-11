@@ -56,3 +56,27 @@ footer {
     transform-origin: center;
     animation: center .5s infinite, ball .5s -0.33s infinite linear;
 }
+
+@keyframes eating-top {
+    0% {
+        transform: rotate(-40deg);
+   }
+    50% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(-40deg);
+   }
+}
+@keyframes eating-bottom {
+    0% {
+        transform: rotate(80deg);
+   }
+    50% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(80deg);
+   }
+
+}
