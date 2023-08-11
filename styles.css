@@ -80,3 +80,23 @@ footer {
    }
 
 }
+@keyframes center {
+    0% {
+        transform: rotate(40deg);
+   }
+    50% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(40deg);
+   }
+}
+@keyframes ball {
+    0% {
+        opacity: .7;
+        box-shadow: 70px 0 0 0 #fed75a, 120px 0 0 0 #fed75a, 170px 0 0 0 #fed75a, 220px 0 0 0 #fed75a;
+   }
+    100% {
+        box-shadow: 20px 0 0 0 #fed75a, 70px 0 0 0 #fed75a, 120px 0 0 0 #fed75a, 170px 0 0 0 #fed75a;
+   }
+}
