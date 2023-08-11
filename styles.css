@@ -1,0 +1,17 @@
+body {
+    background: #000115;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 65px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+footer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: rgba(255, 255, 255, 0.8);
+}
