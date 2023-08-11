@@ -33,3 +33,14 @@ footer {
     height: calc(35px);
     background: #fed75a;
 }
+
+.pac-man::before {
+    content: '';
+    display: block;
+    margin-top: calc(35px);
+    position: absolute;
+    transform-origin: top;
+    border-radius: 0 0 100em 100em;
+    transform: rotate(80deg);
+    animation: eating-bottom .5s infinite;
+}
