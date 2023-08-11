@@ -27,3 +27,9 @@ footer {
     animation: eating-top .5s infinite;
 
 }
+
+.pac-man, .pac-man::before {
+    width: 70px;
+    height: calc(35px);
+    background: #fed75a;
+}
